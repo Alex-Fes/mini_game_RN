@@ -11,8 +11,9 @@ type TitlePropsType = {
 }
 const styles = StyleSheet.create({
   title: {
+    fontFamily: 'open-sans-bold',
     fontSize: 24,
-    fontWeight: 'bold',
+    // fontWeight: 'bold',
     color: '#FFFFFF',
     textAlign: 'center',
     borderWidth: 2,

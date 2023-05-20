@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { ReactNode } from 'react'
 
 import { View, Text, StyleSheet, Pressable } from 'react-native'
 
@@ -21,8 +21,8 @@ export const PrimaryButton = (props: PrimaryButtonProps): JSX.Element => {
 }
 
 type PrimaryButtonProps = {
-  children: string
-  onPress: () => void
+  children: ReactNode
+  onPress?: () => void
 }
 
 const styles = StyleSheet.create({
